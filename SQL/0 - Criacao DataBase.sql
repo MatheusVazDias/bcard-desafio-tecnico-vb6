@@ -1,0 +1,11 @@
+USE master;
+GO
+
+IF DB_ID('XYZCartoes') IS NULL
+BEGIN
+    CREATE DATABASE XYZCartoes;
+END;
+GO
+
+USE XYZCartoes;
+GO

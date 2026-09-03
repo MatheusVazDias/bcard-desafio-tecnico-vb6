@@ -1,0 +1,19 @@
+# Arquivos compilados
+*.exe
+*.dll
+*.ocx
+
+# Arquivos temporários / backup
+*.tmp
+*.bak
+*.old
+*.~*
+
+# Logs
+*.log
+logs/
+
+# Banco de dados local
+*.mdf
+*.ldf
+*.ndf
