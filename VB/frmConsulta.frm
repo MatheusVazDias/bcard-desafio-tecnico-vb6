@@ -15,7 +15,7 @@ Begin VB.Form frmConsulta
       Caption         =   "Anterior"
       Height          =   495
       Left            =   4200
-      TabIndex        =   8
+      TabIndex        =   9
       Top             =   8880
       Width           =   1575
    End
@@ -33,14 +33,14 @@ Begin VB.Form frmConsulta
       ForeColor       =   &H00800000&
       Height          =   9375
       Left            =   120
-      TabIndex        =   10
+      TabIndex        =   11
       Top             =   120
       Width           =   11415
       Begin VB.CommandButton cmdExcluir 
          Caption         =   "Excluir"
          Height          =   615
          Left            =   9720
-         TabIndex        =   19
+         TabIndex        =   8
          Top             =   1800
          Width           =   1575
       End
@@ -48,7 +48,7 @@ Begin VB.Form frmConsulta
          Caption         =   "Próxima"
          Height          =   495
          Left            =   5880
-         TabIndex        =   9
+         TabIndex        =   10
          Top             =   8760
          Width           =   1575
       End
@@ -119,7 +119,7 @@ Begin VB.Form frmConsulta
       Begin MSFlexGridLib.MSFlexGrid grdTransacoes 
          Height          =   6255
          Left            =   120
-         TabIndex        =   17
+         TabIndex        =   18
          Top             =   2520
          Width           =   11175
          _ExtentX        =   19711
@@ -131,7 +131,7 @@ Begin VB.Form frmConsulta
          Caption         =   "Página ***"
          Height          =   375
          Left            =   9360
-         TabIndex        =   18
+         TabIndex        =   19
          Top             =   8760
          Width           =   1695
       End
@@ -141,7 +141,7 @@ Begin VB.Form frmConsulta
          Height          =   255
          Index           =   3
          Left            =   8880
-         TabIndex        =   16
+         TabIndex        =   17
          Top             =   1320
          Width           =   975
       End
@@ -151,7 +151,7 @@ Begin VB.Form frmConsulta
          Height          =   255
          Index           =   2
          Left            =   6000
-         TabIndex        =   15
+         TabIndex        =   16
          Top             =   1320
          Width           =   975
       End
@@ -161,7 +161,7 @@ Begin VB.Form frmConsulta
          Height          =   255
          Index           =   1
          Left            =   8880
-         TabIndex        =   14
+         TabIndex        =   15
          Top             =   720
          Width           =   975
       End
@@ -170,7 +170,7 @@ Begin VB.Form frmConsulta
          ForeColor       =   &H00800000&
          Height          =   255
          Left            =   120
-         TabIndex        =   13
+         TabIndex        =   14
          Top             =   720
          Width           =   975
       End
@@ -180,7 +180,7 @@ Begin VB.Form frmConsulta
          Height          =   255
          Index           =   0
          Left            =   6000
-         TabIndex        =   12
+         TabIndex        =   13
          Top             =   720
          Width           =   975
       End
@@ -189,7 +189,7 @@ Begin VB.Form frmConsulta
          ForeColor       =   &H00800000&
          Height          =   255
          Left            =   120
-         TabIndex        =   11
+         TabIndex        =   12
          Top             =   1320
          Width           =   975
       End

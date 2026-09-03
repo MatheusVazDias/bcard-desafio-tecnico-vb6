@@ -12,14 +12,14 @@ Begin VB.Form frmTransacao
    Begin VB.TextBox txtDescricao 
       Height          =   375
       Left            =   1440
-      TabIndex        =   9
+      TabIndex        =   3
       Top             =   2640
       Width           =   3855
    End
    Begin VB.TextBox txtValor 
       Height          =   375
       Left            =   1440
-      TabIndex        =   7
+      TabIndex        =   1
       Top             =   1440
       Width           =   3855
    End
@@ -37,13 +37,13 @@ Begin VB.Form frmTransacao
       ForeColor       =   &H00800000&
       Height          =   8055
       Left            =   120
-      TabIndex        =   0
+      TabIndex        =   7
       Top             =   120
       Width           =   5415
       Begin VB.ComboBox cboStatus 
          Height          =   315
          Left            =   1320
-         TabIndex        =   12
+         TabIndex        =   4
          Text            =   "Combo1"
          Top             =   3240
          Width           =   3855
@@ -52,7 +52,7 @@ Begin VB.Form frmTransacao
          Caption         =   "Cancelar"
          Height          =   615
          Left            =   3240
-         TabIndex        =   11
+         TabIndex        =   6
          Top             =   7080
          Width           =   1575
       End
@@ -60,21 +60,21 @@ Begin VB.Form frmTransacao
          Caption         =   "Salvar"
          Height          =   615
          Left            =   600
-         TabIndex        =   10
+         TabIndex        =   5
          Top             =   7080
          Width           =   1575
       End
       Begin VB.TextBox txtData 
          Height          =   375
          Left            =   1320
-         TabIndex        =   8
+         TabIndex        =   2
          Top             =   1920
          Width           =   3855
       End
       Begin VB.TextBox txtCartao 
          Height          =   375
          Left            =   1320
-         TabIndex        =   6
+         TabIndex        =   0
          Top             =   720
          Width           =   3855
       End
@@ -83,7 +83,7 @@ Begin VB.Form frmTransacao
          ForeColor       =   &H00800000&
          Height          =   255
          Left            =   240
-         TabIndex        =   5
+         TabIndex        =   12
          Top             =   3360
          Width           =   975
       End
@@ -92,7 +92,7 @@ Begin VB.Form frmTransacao
          ForeColor       =   &H00800000&
          Height          =   255
          Left            =   240
-         TabIndex        =   4
+         TabIndex        =   11
          Top             =   2640
          Width           =   975
       End
@@ -101,7 +101,7 @@ Begin VB.Form frmTransacao
          ForeColor       =   &H00800000&
          Height          =   255
          Left            =   240
-         TabIndex        =   3
+         TabIndex        =   10
          Top             =   2040
          Width           =   975
       End
@@ -110,7 +110,7 @@ Begin VB.Form frmTransacao
          ForeColor       =   &H00800000&
          Height          =   255
          Left            =   240
-         TabIndex        =   2
+         TabIndex        =   9
          Top             =   1440
          Width           =   975
       End
@@ -119,7 +119,7 @@ Begin VB.Form frmTransacao
          ForeColor       =   &H00800000&
          Height          =   255
          Left            =   240
-         TabIndex        =   1
+         TabIndex        =   8
          Top             =   720
          Width           =   975
       End
