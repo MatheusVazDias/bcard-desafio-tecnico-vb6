@@ -3,6 +3,7 @@
 ## Aplicação desktop desenvolvida em Visual Basic 6 para gerenciamento de transações de cartões de crédito, utilizando SQL Server.
 
 ### Funcionalidades
+- Exibição das 20 últimas transações na tela inicial
 - Cadastro, edição e exclusão de transações
 - Bloqueio de edição de transações aprovadas
 - Consulta com filtros por cartão, período, valor e status
